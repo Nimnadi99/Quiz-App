@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background: rgb(92, 92, 153);
+    margin: auto;
+
+}
+.quizInterface {
+    width: 50%;
+    background: white;
+    height: 80vh;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 20px;
+    padding: 20px;
+}
+h1.simpleQuiz {
+    color: #5c5c99;
+    margin-bottom: 1%;
+}
+h3.Question {
+    padding: 10px;
+    margin-top: 3%;
+    margin-bottom: -10px;
+    color: #5c5c99;
+    font-weight: 900;
+}
+div#answerList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+button.btn {
+    margin-bottom: 4%;
+    padding: 12px;
+    background: #5c5c9942;
+    border: 1px solid #5c5c9942;
+    text-align: justify;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    
+}
+#next{
+    padding: 12px 70px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    background: #5c5c99;
+    border: none;
+    outline: none;
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+    
+}
+.nextCLass{
+    padding: 12px 70px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    background: #5c5c99;
+    border: none;
+    outline: none;
+    display: flex;
+    margin: auto;
+    margin-top: 20%;
+}
+.nextCLass:hover{
+    background-color: red;
+}
+.btn:hover{
+    background-color: #5c5c99;
+    color: white;
+}
+.message{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2%;
+    display: none;
+    
+}
